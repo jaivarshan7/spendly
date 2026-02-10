@@ -1,0 +1,17 @@
+Running Gradle task 'assembleDebug'...                          
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':receive_sharing_intent:compileDebugKotlin'.
+> Inconsistent JVM Target Compatibility Between Java and Kotlin Tasks
+    Inconsistent JVM Target Compatibility Between Java and Kotlin Tasks
+      Inconsistent JVM-target compatibility detected for tasks 'compileDebugJavaWithJavac' (1.8) and 'compileDebugKotlin' (17).
+
+* Try:
+> Consider using JVM Toolchain: https://kotl.in/gradle/jvm/toolchain
+> Run with --scan to get full insights.
+
+BUILD FAILED in 21s
+Running Gradle task 'assembleDebug'...                             21.4s
+Gradle task assembleDebug failed with exit code 1
